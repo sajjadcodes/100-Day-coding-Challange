@@ -12,6 +12,13 @@
 
 print("123" + "345")
 
+#Integer: number data type.
+
+print(123 + 345)
+
+# large Integers 342,654,896
+print(342_654_896) 
+
 
 
 
