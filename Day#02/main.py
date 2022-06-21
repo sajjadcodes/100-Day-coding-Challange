@@ -44,9 +44,15 @@ num_char = len(input("What is your name: "))
 new_num_char = str(num_char)
 
 print("Your name has " + new_num_char + " characters.")
+ 
 
+a = float(123)
+b = str(124)
+c = int("1245")
 
-
+print(type(a))
+print(type(b))
+print(type(c))
 
 
 
