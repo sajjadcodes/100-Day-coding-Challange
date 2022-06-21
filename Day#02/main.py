@@ -17,10 +17,27 @@ print("123" + "345")
 print(123 + 345)
 
 # large Integers 342,654,896
-print(342_654_896) 
+print(342_654_896)
+
+# Float: For dicimal number, float point number
+
+3.14159
+
+# Boolean : Booleans has two types
+True
+False
+
+
+#Checking Type
+
+
+num_char = len(input("What is your name: "))
+
+#Type error
+print("your name has " +num_char+ "characters." )
 
 
 
 
 
-
+ 
