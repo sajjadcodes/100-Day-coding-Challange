@@ -33,8 +33,12 @@ False
 
 num_char = len(input("What is your name: "))
 
-#Type error
-print("your name has " +num_char+ "characters." )
+#Type error: because characters and integer con not be conncatinate
+#print("your name has " +num_char+ "characters." )
+
+#type() will return the data type
+print(type(num_char))
+
 
 
 
