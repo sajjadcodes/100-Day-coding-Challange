@@ -37,7 +37,13 @@ num_char = len(input("What is your name: "))
 #print("your name has " +num_char+ "characters." )
 
 #type() will return the data type
-print(type(num_char))
+#print(type(num_char))
+
+#Type conversion or 
+
+new_num_char = str(num_char)
+
+print("Your name has " + new_num_char + " characters.")
 
 
 
