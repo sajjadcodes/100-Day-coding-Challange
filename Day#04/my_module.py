@@ -1,0 +1,2 @@
+
+name = "My Module Educational"
