@@ -34,20 +34,28 @@ choice = int(input("What do you Choose? Type 0 for Rock, 1 for Paper or 2 for Sc
 rand_shape = random.choice(game)
 
 if game[choice] == rand_shape:
+    print("Your Choice")
     print(game[choice])
+    print("Computer Choice")
     print(rand_shape)
     print("Game Draw")
 
 elif game[choice] == game[0] and rand_shape== game[2]:
+    print("Your Choice")
     print(game[choice])
+    print("Computer Choice")
     print(rand_shape)
     print("You Won.!")
 
 elif game[choice] == game[2] and rand_shape == game[1]:
+    print("Your Choice")
     print(game[choice])
+    print("Computer Choice")
     print(rand_shape)
     print("You Again Won")
 else:
+    print("Your Choice")
     print(game[choice])
+    print("Computer Choice")
     print(rand_shape)
     print("You loss")
