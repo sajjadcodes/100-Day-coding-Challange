@@ -12,3 +12,13 @@ for number in range(1,21):
 print("################################################") 
 for number in range(1,21,3):
     print(number)
+    
+    
+print("----------------------")
+
+total = 0
+
+for number in range(1, 101):
+    total += number
+
+print(total)
