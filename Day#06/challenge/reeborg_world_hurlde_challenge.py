@@ -1,0 +1,15 @@
+def jump():
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    turn_left()
+for i in range(1,12,3):
+    move()
+    jump()
