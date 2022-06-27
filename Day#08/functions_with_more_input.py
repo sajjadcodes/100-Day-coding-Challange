@@ -8,4 +8,10 @@ def greet_with(name, location):
 
 greet_with("Jack Bauer", "Nowhere")
 
-    
+# changing orders: positional arguement. Default way
+#order matters
+greet_with("nowhere", "jack Bauer")
+
+#keyword Argument: order does not matter
+
+greet_with( location="islamabad" ,name="Sajjad")
