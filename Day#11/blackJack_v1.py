@@ -41,6 +41,9 @@ def play_card():
     computer_score = 0
     computer_score = sum(computer_cards)
     
+    if blackjack(arr,ace,ten):
+        
+    
     print(f"Your cards: {user_cards}, current score: {user_score}")
     print(f"Computer's first card: {computer_score}") 
 
