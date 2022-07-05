@@ -11,7 +11,9 @@ timmy = Turtle()
 # Give object address
 print(timmy)
 
-
+timmy.shape('turtle')
+timmy.color('DarkBlue')
+timmy.forward(100)
 
 # Attributes
 ## car attributes , speed , feul
@@ -20,6 +22,11 @@ my_screen = Screen()
 # height of the canvas
 print(my_screen.canvheight)
 
-#as
+#Car object: Does move(), stop() methods
+## car.stop() : object.method()
+
+my_screen.exitonclick()
+
+
 
 
