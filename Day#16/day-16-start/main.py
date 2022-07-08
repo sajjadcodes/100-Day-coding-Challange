@@ -3,6 +3,12 @@ import another_module
 # We can simplify as
 from turtle import Turtle, Screen
 
+from prettytable import PrettyTable
+table = PrettyTable()
+print(table)
+table.add_column("city Name",['Chitral', 'Peshwar', 'islamabad'])
+table.add_column("Zip Code",['41', '51', '46'])
+print(table)
 print(another_module.another_variable)
 # import turtle module and inside the class Turtle crate the object of the class call timmy
 # timmy = turtle.Turtle()
