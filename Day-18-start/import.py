@@ -8,3 +8,13 @@ from turtle import Turtle
 
 #Import everything
 from turtle import *
+
+#how to Alias module
+# import turtle as t
+# keyword module keyword Alias
+
+#install module using pypi
+
+
+
+
